@@ -66,7 +66,7 @@ s_paths = [
 
 s_pool = [
     "https://emby.xiaoya.pro/",
-    # "https://icyou.eu.org/",
+    "https://icyou.eu.org/",
     # "https://emby.8.net.co/",
     # "https://emby.raydoom.tk/",
     # "https://embyxiaoya.laogl.top/",
