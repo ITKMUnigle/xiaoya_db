@@ -663,6 +663,7 @@ async def main():
         url = pick_a_pool_member(s_pool)
     else:
         url = args.url
+    logger.info(f"url={url}\t urlparse(url).path != '/' = {urlparse(url).path != '/'} \t args.purge =  {args.purge} \t args.db = {args.db}")
     if urlparse(url).path != "/" and (args.purge or args.db):
         logger.warning("--db or --purge only support in root path mode")
         sys.exit(1)
